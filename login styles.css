@@ -1,0 +1,144 @@
+body {
+    font-family:Arial;
+    background-image: linear-gradient(90deg,#205EBA,#6ac1ec  );
+    background-size:100% 100%;
+    
+    background-repeat:repeat-y;
+
+}
+
+
+.container {
+   
+   display:grid;
+   place-items:center;
+   margin-top:89px;
+
+  
+   
+}
+
+.profile-pic {
+    width:145px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+.eye-icon {
+   width:40px;
+   height:30px;
+   position:absolute;
+   
+   
+ 
+}
+
+.user-icon {
+    width:40px;
+    height:40px;
+    vertical-align:top;
+    margin-bottom:2px;
+    
+    
+   
+}
+
+.user-name, .user-name2 {
+    width:300px;
+    height:25px;
+    outline:none;
+    border:none;
+    background:#c9c9c9;
+    border-radius:21px;
+    padding:8px;
+    font-size:25px;
+    color:#3A3939;
+    margin-bottom:20px;
+    padding:8px 10px;
+    white-space: nowrap;
+}
+
+.for-pass{
+  display:block;
+  text-align:right;
+  margin-top:0;
+  font-size:14px;
+  color:#111010;
+  font-weight:600;
+    
+}
+
+.user-name2 {
+    margin-bottom:0;
+}
+
+.underline {
+    border-bottom:1px solid black;
+    
+}
+
+.login-btn {
+    width:200px;
+    height:50px;
+    display:block;
+    margin:0 auto;
+    border-radius:21px;
+    font-size:25px;
+    font-weight:700;
+    color:white;
+    background:#111010;
+    border:none;
+}
+
+.option-sign {
+    text-align:center;
+    font-weight:600;
+   
+}
+
+.container2 {
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.facebook-img{
+    width:40px;
+    
+    
+}
+
+.twitter-img {
+    width:35px;
+    
+    
+}
+
+.gmail-img {
+    width:45px;
+}
+
+.container3 {
+    position:relative;
+    
+}
+
+
+.fa-eye {
+    position:absolute;
+    right:4%;
+    top:6%;
+}
+
+.dragon, .dragon2 {
+    width:150px;
+    display:inline-block;
+}
+
+.container4 {
+ display:flex;
+ justify-content:space-between;
+ 
+
+}
+
