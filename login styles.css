@@ -83,8 +83,12 @@ body {
 
 .underline {
    
-    border-bottom:1px solid #111010;
+    
     padding-top:4px;
+}
+
+.underline:hover {
+    border-bottom:1px solid #111010;
 }
 
 
